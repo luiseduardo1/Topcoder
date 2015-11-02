@@ -1,4 +1,40 @@
-// First version of the PrefixCode class
+/**
+ * PrefixCode Class
+ * @author Eduardo
+ *
+ */
+
+/*
+ *  Upgrade version of the class
+ */
+
+public class PrefixCode
+{
+	public String isOne(String[] words)
+	{
+		for(int i = 0 ; i < words.length - 1 ; i++)
+		{
+			for(int j = i + 1; j < words.length; j++ )
+			{
+				if (words[i].startsWith(words[j]))
+				{
+					return ("No, " + j);
+				}
+				else if (words[j].startsWith(words[i]))
+				{
+					return ("No, "+ i);
+				}
+			}
+		}
+		
+		return ("Yes");
+	}
+}
+
+
+
+/** First version of the class
+ 
 public class PrefixCode {
 
 	public boolean isSubString(String A, String B)
@@ -57,6 +93,9 @@ public class PrefixCode {
 	}
 	
 }
+
+*/
+
 class Test{
 	public static void main(String[] args){
 		PrefixCode prefixCodeTest =  new PrefixCode();
