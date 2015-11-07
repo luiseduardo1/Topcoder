@@ -1,15 +1,11 @@
-
-// {{{ VimCoder 0.3.6 <-----------------------------------------------------
-// vim:filetype=java:foldmethod=marker:foldmarker={{{,}}}
-
-import static java.lang.Math.*;
-import static java.math.BigInteger.*;
-import static java.util.Arrays.*;
-import static java.util.Collections.*;
-import java.math.*;
-import java.util.*;
-
-// }}}
+/*
+ * TopCoder
+ * Single Round Match: 145
+ * Division: 2
+ * Level:1
+ * Points: 250
+ * Description: https://community.topcoder.com/stat?c=problem_statement&pm=1728
+ */
 
 public class ImageDithering
 {

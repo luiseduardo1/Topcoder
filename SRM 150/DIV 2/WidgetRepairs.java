@@ -1,6 +1,15 @@
+/*
+ * TopCoder
+ * Single Round Match: 150 
+ * Division: 2
+ * Level:1
+ * Points: 250
+ * Description: https://community.topcoder.com/stat?c=problem_statement&pm=1346
+ */
+
 public class WidgetRepairs {
 
-	public int days(int[] arrivals, int numPerDay)
+  public int days(int[] arrivals, int numPerDay)
 	{
 		int operatingDays = 0;
 		int widgetsLeft = 0;
@@ -10,7 +19,6 @@ public class WidgetRepairs {
 			if (i == (arrivals.length - 1))
 			{
 				operatingDays += (arrivals[i] / numPerDay);
-				
 				if ((arrivals[i] % numPerDay) > 0)
 				{
 					operatingDays += 1;
@@ -29,11 +37,8 @@ public class WidgetRepairs {
 				{
 					arrivals[i+1] += widgetsLeft;
 				}
-				
 			}
-			
 		}
-		
 		return operatingDays;
 	}
 }

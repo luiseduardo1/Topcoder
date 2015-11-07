@@ -1,13 +1,13 @@
-/**
- * PrefixCode Class
- * @author Eduardo
- *
- */
-
 /*
- *  Upgrade version of the class
+ * TopCoder
+ * Single Round Match: 151
+ * Division: 2
+ * Level:1
+ * Points: 250
+ * Description: https://community.topcoder.com/stat?c=problem_statement&pm=1700
  */
 
+// Upgrade version of the class
 public class PrefixCode
 {
 	public String isOne(String[] words)
@@ -33,8 +33,8 @@ public class PrefixCode
 
 
 
-/** First version of the class
- 
+// First version of the class
+/*
 public class PrefixCode {
 
 	public boolean isSubString(String A, String B)
