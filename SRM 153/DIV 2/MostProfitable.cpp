@@ -1,10 +1,11 @@
-//
-//  main.cpp
-//  MostProfitable
-//
-//  Created by Luis Eduardo Obando on 2015-11-11.
-//  Copyright (c) 2015 Luis E. Obando. All rights reserved.
-//
+/*
+ * TopCoder
+ * Single Round Match: 153
+ * Division: 2
+ * Level:1
+ * Points: 250
+ * Description: https://community.topcoder.com/stat?c=problem_statement&pm=1774
+ */
 
 #include <iostream>
 #include <vector>
@@ -12,6 +13,7 @@
 
 using namespace std;
 
+// First version of the class
 class MostProfitable{
 public:
     string bestItem(vector <int> costs, vector <int> prices, vector <int> sales, vector <string> items){
