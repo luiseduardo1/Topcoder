@@ -13,7 +13,25 @@
 
 using namespace std;
 
+class MostProfitable{
+public:
+    string bestItem(vector <int> costs, vector <int> prices, vector <int> sales, vector <string> items){
+        string result;
+        int profitMax = 0;
+        
+        for(int i = 0; i < items.size(); i++){
+            int profit = (prices[i] - costs[i]) * sales[i];
+            if (profit > profitMax) {
+                result = items[i];
+                profitMax = profit;
+            }
+        }
+        return result;
+    }
+};
+
 // First version of the class
+/*
 class MostProfitable{
 public:
     string bestItem(vector <int> costs, vector <int> prices, vector <int> sales, vector <string> items){
@@ -35,6 +53,7 @@ public:
         }
     }
 };
+*/
 
 int main(){
     MostProfitable mostProfitableTest;
