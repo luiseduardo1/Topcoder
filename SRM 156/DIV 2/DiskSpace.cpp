@@ -13,6 +13,28 @@
 
 using namespace std;
 
+// Upgrade version of the class
+class DiskSpace{
+    
+public:
+    int minDrives(vector <int> used, vector <int> total) {
+        int numberHardDrives = 0;
+        int totalUsedData = accumulate(used.begin(), used.end(), 0);
+        sort(total.rbegin(), total.rend());
+        
+        for (int i = 0; i < total.size(); ++i) {
+            if (totalUsedData <= total[i]){
+                numberHardDrives = i + 1;
+                break;
+            }
+            totalUsedData -= total[i];
+        }
+        return numberHardDrives;
+    }
+};
+
+
+// First version of the class
 class DiskSpace{
     
 public:
