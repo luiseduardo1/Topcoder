@@ -25,11 +25,3 @@ public:
         return experienceNeeded;
     }
 };
-
-int main(){
-    LevelUp testClass;
-    vector<int> vectorTest= {150,450,900,1800};
-    int testint = 612;
-    cout << testClass.toNextLevel(vectorTest, testint)<< endl;
-
-}
