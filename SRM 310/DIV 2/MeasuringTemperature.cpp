@@ -1,3 +1,12 @@
+/*
+ * TopCoder
+ * Single Round Match: 310
+ * Division: 1
+ * Level:1
+ * Points: 250
+ * Description: https://community.topcoder.com/stat?c=problem_statement&pm=6553
+ */
+
 #include <iostream>
 #include <vector>
 
