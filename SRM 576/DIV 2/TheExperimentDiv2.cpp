@@ -1,10 +1,11 @@
-//
-//  main.cpp
-//  SRM 576
-//
-//  Created by Luis Eduardo Obando on 2015-12-25.
-//  Copyright (c) 2015 Luis E. Obando. All rights reserved.
-//
+/*
+ * TopCoder
+ * Single Round Match: 576
+ * Division: 2
+ * Level:1
+ * Points: 256
+ * Description: https://community.topcoder.com/tc?module=ProblemDetail&rd=15496&pm=12508
+ */
 
 #include <iostream>
 #include <vector>
