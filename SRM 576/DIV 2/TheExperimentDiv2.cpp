@@ -31,15 +31,3 @@ public:
         return result;
     }
 };
-
-
-int main(){
-    TheExperimentDiv2 testClass;
-    vector<int> intensity = {3, 4, 1, 1, 5, 6};
-    int L = 3;
-    vector<int> leftEnd ={3, 1, 0};
-    vector<int> result = testClass.determineHumidity(intensity, L, leftEnd);
-    for (auto &it : result){
-        cout << it << " ";
-    }
-}
