@@ -1,10 +1,12 @@
-//
-//  main.cpp
-//  SRM 586
-//
-//  Created by Luis Eduardo Obando on 2015-12-28.
-//  Copyright (c) 2015 Luis E. Obando. All rights reserved.
-//
+/*
+ * TopCoder
+ * Single Round Match: 586 
+ * Division: 2
+ * Level:1
+ * Points: 250
+ * Description: https://community.topcoder.com/stat?c=problem_statement&pm=12696
+ */
+ 
 #include <string>
 #include <vector>
 #include <algorithm>
