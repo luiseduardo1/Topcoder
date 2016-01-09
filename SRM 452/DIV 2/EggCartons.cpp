@@ -1,10 +1,11 @@
-//
-//  main.cpp
-//  SRM 452
-//
-//  Created by Luis Eduardo Obando on 2016-01-04.
-//  Copyright (c) 2016 Luis E. Obando. All rights reserved.
-//
+/*
+ * TopCoder
+ * Single Round Match: 452 
+ * Division: 2
+ * Level:1
+ * Points: 250
+ * Description: https://community.topcoder.com/stat?c=problem_statement&pm=10582
+ */
 
 #include <iostream>
 #include <algorithm>
